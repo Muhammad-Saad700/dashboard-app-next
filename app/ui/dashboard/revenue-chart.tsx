@@ -10,7 +10,7 @@ import { fetchRevenue } from '@/app/lib/data';
 // https://www.chartjs.org/
 // https://airbnb.io/visx/
 
-export default async function  RevenueChart() {
+export default async function RevenueChart() {
   const revenue = await fetchRevenue();
 
   const chartHeight = 350;
@@ -58,7 +58,7 @@ export default async function  RevenueChart() {
           <CalendarIcon className="h-5 w-5 text-gray-500" />
           <h3 className="ml-2 text-sm text-gray-500 ">Last 12 months</h3>
         </div>
-      </div> 
+      </div>
     </div>
   );
 }
